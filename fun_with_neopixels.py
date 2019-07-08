@@ -23,8 +23,8 @@ for i in range(0,100):
     onLed = randint(0,9)
     for pixel in range(0,10):
         if(pixel == onLed):
-            cpx.pixels[randint(0,9)] = (100,100,100)
+            cpx.pixels[pixel] = (100,100,100)
         else:
-            cpx.pixels[randint(0,9)] = (0,0,0)
+            cpx.pixels[pixel] = (0,0,0)
     sleep(.1)
 
